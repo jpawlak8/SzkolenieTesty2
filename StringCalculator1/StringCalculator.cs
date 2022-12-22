@@ -42,9 +42,18 @@
             return sum;
         }
 
+        //public List<string> FindDelimiter(string numbers)
+        //{//czy jest znak//
+        //    //czy jest []
+        //    //czy jest wiele [][]
+        //    //L=List<string>()
+        //    //    {',' };
+        //    //return L;
+
+        //}
         public int AddNumbersFindDelimiter(string numbers)
-        {
-            // //;\n1;2;3;4;5;6;
+            {
+                // //;\n1;2;3;4;5;6;
             List<int> numberList = new List<int>();
             if (numbers == null || numbers == "")
             {
